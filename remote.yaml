@@ -1,0 +1,649 @@
+type: picture-elements
+elements:
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Power
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: power
+    style:
+      top: 07%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Source
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: source
+    style:
+      top: 07%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap1
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap1
+    style:
+      top: 14%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap2
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap2
+    style:
+      top: 14%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap3
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap3
+    style:
+      top: 14%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap4
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap4
+    style:
+      top: 19%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap5
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap5
+    style:
+      top: 19%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap6
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap6
+    style:
+      top: 19%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap7
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap7
+    style:
+      top: 24%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap8
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap8
+    style:
+      top: 24%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap9
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap9
+    style:
+      top: 24%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: Knap0
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: knap0
+    style:
+      top: 29%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: previouschannel
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: previouschannel
+    style:
+      top: 29%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: vol_plus
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: vol_plus
+    style:
+      top: 36%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: vol_minus
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: vol_minus
+    style:
+      top: 44%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: kanal_plus
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: kanal_plus
+    style:
+      top: 36%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: mute
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: mute
+    style:
+      top: 36%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: guide
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: guide
+    style:
+      top: 51%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: info
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: info
+    style:
+      top: 57%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: return
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: return
+    style:
+      top: 70%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: exit
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: exit
+    style:
+      top: 70%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: enter
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: enter
+    style:
+      top: 63%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: op
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: op
+    style:
+      top: 57%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: ned
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: ned
+    style:
+      top: 69%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: venstre
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: venstre
+    style:
+      top: 63%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: hojre
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: hojre
+    style:
+      top: 63%
+      left: 76%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: rod
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: rod
+    style:
+      top: 74%
+      left: 20%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: gron
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: gron
+    style:
+      top: 74%
+      left: 38%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: gul
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: gul
+    style:
+      top: 74%
+      left: 59%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: bla
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: bla
+    style:
+      top: 74%
+      left: 79%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: stop
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: stop
+    style:
+      top: 80%
+      left: 79%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: reverse
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: reverse
+    style:
+      top: 83%
+      left: 20%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: play
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: play
+    style:
+      top: 83%
+      left: 38%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: pause
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: pause
+    style:
+      top: 83%
+      left: 59%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: forward
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: forward
+    style:
+      top: 83%
+      left: 78%
+      width: 15%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: tools
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: tools
+    style:
+      top: 57%
+      left: 22%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: menu
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: menu
+    style:
+      top: 51%
+      left: 49%
+      width: 18%
+  - entity: remote.wi_fi_universal_remote_remote
+    state_image:
+      'on': /local/pics/remote/transknap.png
+      'off': /local/pics/remote/transknap.png
+    type: image
+    name: mediap
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.wi_fi_universal_remote_remote
+        device: TVStue
+        command: mediap
+    style:
+      top: 51%
+      left: 22%
+      width: 18%
+image: /local/pics/remote/samsungremote_150.png
