@@ -1,18 +1,12 @@
 # HA_IR_Remote
 Code to create a Samsung IR remote, using a picture card.
-I use a Broadlink RM4 mini to send codes, and all te codes are stored in \\yourHAinstance\config\.storage like in this picture
-
-1. path to file
-2. file holding the IR Codes
-
-![image](https://user-images.githubusercontent.com/59705799/153267548-96595855-8157-4c35-9cad-fda2d035776d.png)
 
 ![image](https://github.com/jopdk/HA_IR_Remote/blob/main/samsungremote_150.png)
 
 I use a Broadlink RM4 mini to send codes, and all te codes are stored in \\yourHAinstance\config\.storage like in this picture
 
-* 1 path to file
-* 2 file holding the IR Codes
+1. path to file
+2. file holding the IR Codes
 
 ![image](https://user-images.githubusercontent.com/59705799/153267548-96595855-8157-4c35-9cad-fda2d035776d.png)
 
