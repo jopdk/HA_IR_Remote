@@ -7,6 +7,7 @@ I use a Broadlink RM4 mini to send codes, and all te codes are stored in \\yourH
 
 ![image](https://user-images.githubusercontent.com/59705799/153267548-96595855-8157-4c35-9cad-fda2d035776d.png)
 
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://user-images.githubusercontent.com/59705799/153256128-4afad49a-99ee-43c9-bfdf-96af6085f6b9.mp4)
 
 https://user-images.githubusercontent.com/59705799/153256128-4afad49a-99ee-43c9-bfdf-96af6085f6b9.mp4
 
